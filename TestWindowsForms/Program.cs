@@ -16,7 +16,7 @@ namespace TestWindowsForms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HelloWorld());
+            Application.Run(new Frm_HelloWorld());
         }
     }
 }
