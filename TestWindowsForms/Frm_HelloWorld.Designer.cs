@@ -51,6 +51,7 @@
             this.Btn_Sair.TabIndex = 1;
             this.Btn_Sair.Text = "Fechar a aplicacao";
             this.Btn_Sair.UseVisualStyleBackColor = false;
+            this.Btn_Sair.Click += new System.EventHandler(this.Btn_Sair_Click);
             // 
             // Frm_HelloWorld
             // 
