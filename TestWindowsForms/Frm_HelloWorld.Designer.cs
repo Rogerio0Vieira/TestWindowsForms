@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.lbl_Title = new System.Windows.Forms.Label();
+            this.Btn_Sair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_Title
@@ -41,12 +42,23 @@
             this.lbl_Title.TabIndex = 0;
             this.lbl_Title.Text = "Visual Studio .Net Version";
             // 
+            // Btn_Sair
+            // 
+            this.Btn_Sair.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Btn_Sair.Location = new System.Drawing.Point(650, 450);
+            this.Btn_Sair.Name = "Btn_Sair";
+            this.Btn_Sair.Size = new System.Drawing.Size(150, 23);
+            this.Btn_Sair.TabIndex = 1;
+            this.Btn_Sair.Text = "Fechar a aplicacao";
+            this.Btn_Sair.UseVisualStyleBackColor = false;
+            // 
             // Frm_HelloWorld
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(812, 485);
+            this.Controls.Add(this.Btn_Sair);
             this.Controls.Add(this.lbl_Title);
             this.Name = "Frm_HelloWorld";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -60,6 +72,7 @@
         #endregion
 
         private System.Windows.Forms.Label lbl_Title;
+        private System.Windows.Forms.Button Btn_Sair;
     }
 }
 
